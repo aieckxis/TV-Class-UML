@@ -2,8 +2,15 @@
 # BSCpE 1-4
 
 # Define the TV class
-# Attributes
+class TV:
+    # Attributes
+    channel = 1
+    volume = 1
+    tv_on = False
 # Constructor
+    def __init__(self, channel = 1, volume = 1):
+        self.channel = channel
+        self.volume = volume
 # Methods
 # Define the TestTV function
 # Create a TV object with channel 30 and volume level 3
