@@ -51,13 +51,6 @@ class TV:
         if self.tv_on and self.volume > 1:
             volume -= 1
 # Define the TestTV function
-def TestTV():
-    # Create a TV object with channel 30 and volume level 3 (output)
-    tv1 = TV(30, 3)
-    # Turn on the TV1
-    tv1.turnOn()
-    # Print the current channel and volume level of the TV
-    print("tv1 channel is", tv1.getChannel(), "and the volume level is", tv1.getVolume())
 # Create another TV object with channel 3 and volume level 2 (output)
 # Turn on the TV2
 # Print the current channel and volume level of the TV
