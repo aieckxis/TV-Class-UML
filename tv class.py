@@ -7,11 +7,21 @@ class TV:
     channel = 1
     volume = 1
     tv_on = False
-# Constructor
+    # Constructor
     def __init__(self, channel = 1, volume = 1):
         self.channel = channel
         self.volume = volume
-# Methods
+    # Methods
+    # Turn on the TV
+    # Turn off the TV
+    # Return the channel for the TV
+    # Set a new channel for the TV
+    # Get the volume level for the TV
+    # Set a new volume level for the TV
+    # Increase the channel number by 1
+    # Decrease the channel number by 1
+    # Increase the volume level by 1
+    # Decrease the volume level by 1
 # Define the TestTV function
 # Create a TV object with channel 30 and volume level 3
 # Turn on the TV1
