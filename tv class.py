@@ -57,10 +57,12 @@ def TestTV():
     # Turn on the TV1
     tv1.turnOn()
     # Print the current channel and volume level of the TV
-    print("tv1 channel is", tv1.getChannel(), "and the volume level is", tv1.getVolume())
-# Create another TV object with channel 3 and volume level 2 (output)
-# Create another TV object with channel 3 and volume level 2 (output)
-# Turn on the TV2
-# Print the current channel and volume level of the TV
+    print("tv1's channel is", tv1.getChannel(), "and the volume level is", tv1.getVolume())
+    # Create another TV object with channel 3 and volume level 2 (output)
+    tv2 = TV(3, 2)
+    # Turn on the TV2
+    tv2.turnOn()
+    # Print the current channel and volume level of the TV
+    print("tv2's channel is", tv2.getChannel(), "and the volume level is", tv2.getVolume())
 # Call the TestTV function to run the tests
 TestTV()
