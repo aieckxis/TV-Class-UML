@@ -67,6 +67,6 @@ def TestTV():
     tv2.turnOn()
     # Print the current channel and volume level of the TV
     print("tv2's channel is", tv2.getChannel(), "and the volume level is", tv2.getVolume())
-    
+
 # Call the TestTV function to run the tests
 TestTV()
