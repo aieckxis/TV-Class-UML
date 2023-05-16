@@ -46,9 +46,9 @@ The TV class has the following __methods__:
 - __volumeUp(self)__: a method that increases the current volume level of the TV by __1__, if the TV is turned on and the volume level is __less than 7__.
 - __volumeDown(self)__: a method that decreases the current volume level of the TV by __1__, if the TV is turned on and the volume level is __greater than 1__.
 
-<img width="500" alt="image" src="https://github.com/aieckxis/TV-Class-UML/assets/129574374/514363bf-518c-4daa-9672-a398cbe606f8">
+<img width="500" alt="image" src="https://github.com/aieckxis/TV-Class-UML/assets/129574374/6d3eac6c-0a1e-41c0-b585-9fbe3fbefb83">
 
-Finally, the code defines a function called __TestTV__ that creates two instances of the TV class with different channel and volume levels, turns them on, and prints their current channel and volume level. The function is called to run the tests.
+The code above demonstrates the use of the __TV class__ from the __tv_class.py__ file. It starts by importing the __TV class__. Then, there is a function called __TestTV__ which is used for testing the __TV class__. Inside this function, two instances of the __TV class__ are created with different channel and volume levels. The TVs are turned on, and their current channel and volume levels are printed using the __getChannel__ and __getVolume__ methods. Finally, the __TestTV__ function is called to run the tests. In summary, this code illustrates how to create and interact with TV objects using the provided class.
 
 ## Potential Improvements
 - Add a mute method to mute/unmute the TV.
